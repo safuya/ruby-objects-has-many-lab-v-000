@@ -5,4 +5,9 @@ class Song
     @name = name
   end
 
+  def artist_name
+    binding.pry
+    @artist ? @artist.name : nil
+  end
+
 end
