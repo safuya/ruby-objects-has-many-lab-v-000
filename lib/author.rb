@@ -1,5 +1,6 @@
 class Author
   attr_reader :name, :posts
+  @@post_count = 0
 
   def initialize(name)
     @name = name
@@ -15,5 +16,5 @@ class Author
     post = Post.new(post_title)
     add_post(post)
   end
-  
+
 end
