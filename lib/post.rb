@@ -8,7 +8,6 @@ class Post
   end
 
   def author_name
-    binding.pry
     @author ? @author.name : nil
   end
 
