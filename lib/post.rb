@@ -9,7 +9,7 @@ class Post
 
   def author_name
     binding.pry
-    @author.name
+    @author ? @author.name : nil
   end
 
 end
